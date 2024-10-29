@@ -1,0 +1,8 @@
+{
+  "extends": [
+    "@linaria/stylelint-config-standard-linaria",
+    "stylelint-config-prettier"
+  ],
+  "processors": ["stylelint-processor-styled-components"],
+  "files": ["**/*.{css,js,jsx,ts,tsx}"]
+}
